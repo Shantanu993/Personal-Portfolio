@@ -22,7 +22,7 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
-      <nav id="hamburger-nav">
+      {/* <nav id="hamburger-nav">
         <div class="logo">Shantanu Gahtori</div>
         <div class="hamburger-menu">
           <div class="hamburger-icon" onclick="toggleMenu()">
@@ -53,7 +53,7 @@ const Navbar = () => {
             </li>
           </div>
         </div>
-      </nav>
+      </nav> */}
     </>
   );
 };
