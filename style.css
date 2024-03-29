@@ -158,6 +158,7 @@ section {
 
 .section-container {
   display: flex;
+  flex-direction: row;
 }
 
 /* PROFILE SECTION */
@@ -290,12 +291,14 @@ section {
 }
 
 .about-pic {
+  display:flex;
   border-radius: 2rem;
   transform: rotate(90deg);
   max-width: 100%; /* Add this line */
   max-height: 100%; /* Add this line */
   position: relative; /* Add this line */
   /* margin: auto; Add this line */
+
 }
 
 .arrow {
