@@ -294,6 +294,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  transform: rotate(90deg);
 }
 
 .arrow {
