@@ -293,7 +293,7 @@ section {
 }
 
 .about-pic {
-  position:relative;
+  display:flex;
   border-radius: 2rem;
   transform: rotate(90deg);
 }
