@@ -293,6 +293,7 @@ section {
 }
 
 .about-pic {
+  position:relative;
   border-radius: 2rem;
   transform: rotate(90deg);
 }
