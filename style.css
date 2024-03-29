@@ -150,7 +150,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 100vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -167,13 +167,6 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
-}
-
-.section__pic-container {
-  display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
 }
 
 .profile_pic {
@@ -273,16 +266,21 @@ section {
 
 #about {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 .about-containers {
+  /* justify-content: center; */
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
 .about-details-container {
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -294,6 +292,10 @@ section {
 .about-pic {
   border-radius: 2rem;
   transform: rotate(90deg);
+  max-width: 100%; /* Add this line */
+  max-height: 100%; /* Add this line */
+  position: relative; /* Add this line */
+  /* margin: auto; Add this line */
 }
 
 .arrow {
@@ -313,15 +315,19 @@ section {
 }
 
 .section-container {
-  gap: 4rem;
-  height: 80%;
+  /* gap: 10rem; */
+  height: auto;
   display: flex;
 }
 
 .section__pic-container {
+  position: relative; /* Add this line */
   height: 400px;
   width: 400px;
-  margin: 2rem 0;
+  margin: auto 0;
+}
+.section__pic-container2 {
+  position: relative; /* Add this line */
 }
 
 /* SKILLS SECTION */
