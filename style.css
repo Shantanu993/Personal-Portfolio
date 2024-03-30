@@ -324,7 +324,7 @@ section {
 }
 
 .section__pic-container {
-  position: relative; /* Add this line */
+  display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
